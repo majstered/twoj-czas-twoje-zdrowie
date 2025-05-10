@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twój czas, Twoje zdrowie</title>
+  <style>
+    body {
+      background-color: #fef4d1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      color: #3a2f1d;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+      color: #5a4a2a;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "\272A ";
+      color: #7c5d3b;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
+      background-color: #3a2f1d;
+      color: #fff8e1;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #7a6d57;
+    }
+    .footer a {
+      color: #3a2f1d;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Twój czas, Twoje zdrowie</h1>
+
+  <p>Aplikacja desktopowa stworzona z troską o zdrowie, koncentrację i spokój użytkownika.<br>
+  Łączy technikę Pomodoro z pięknym, minimalistycznym interfejsem i delikatnymi dźwiękami.<br>
+  Zaprojektowana do działania offline – wspiera codzienny rytm pracy i odpoczynku.</p>
+
+  <hr>
+  <h2>✨ Główne funkcje</h2>
+
+  <h3>⏳ Tryb Pomodoro</h3>
+  <ul>
+    <li>Wybór trybu pracy:</li>
+    <li>🔹 Testowy (60 sek. pracy + 30 sek. przerwy)</li>
+    <li>🔹 30 minut pracy + 2 minuty przerwy</li>
+    <li>🔹 45 minut pracy + 5 minut przerwy</li>
+    <li>Automatyczne przechodzenie pomiędzy sesjami pracy i przerwy</li>
+  </ul>
+
+  <h3>🌙 Okno przerwy</h3>
+  <ul>
+    <li>Niezależne okienko z animowanym ruchem po ekranie</li>
+    <li>Zachęta do mrugania, rozciągania i oderwania wzroku</li>
+    <li>Możliwość pominięcia przerwy po 15 sek.</li>
+  </ul>
+
+  <h3>🕒 Czasowy wyłącznik komputera</h3>
+  <ul>
+    <li>Wpisz godzinę (format <code>HH:MM</code>) – komputer automatycznie się wyłączy</li>
+    <li>Powiadomienia z godziną planowanego wyłączenia</li>
+    <li>Przycisk <strong>Reset</strong> do anulowania ustawień</li>
+  </ul>
+
+  <h3>🎧 Powiadomienia dźwiękowe</h3>
+  <ul>
+    <li>Subtelne dźwięki <code>.wav</code>:</li>
+    <li>„Dzwonek przerwy” (start odpoczynku)</li>
+    <li>„Powiew Mgiełki” (powrót do pracy)</li>
+    <li>Możliwość włączenia/wyłączenia dźwięków</li>
+  </ul>
+
+  <h3>🌍 Obsługa wielu języków</h3>
+  <ul>
+    <li>Język wybierany z rozwijanego menu</li>
+    <li>Treści dynamicznie wczytywane z plików <code>lang_*.json</code></li>
+  </ul>
+
+  <h3>🖼️ Lekki interfejs graficzny</h3>
+  <ul>
+    <li>Piaskowe tło <code>#fef4d1</code> i ciemnobrązowe czcionki</li>
+    <li>Rozmiar: 180×310 px (intro), 240×420 px (główne okno)</li>
+    <li>Brak belki systemowej + funkcja przesuwania okna</li>
+  </ul>
+
+  <hr>
+  <h2>📦 Struktura plików (rekomendowana)</h2>
+  <pre><code>twój_czas_twoje_zdrowie/
+├── twoj_czas_twoje_zdrowie_RESOURCE_READY.py
+├── README.md
+├── LICENSE
+├── lang/
+│   ├── lang_pl.json
+│   ├── lang_en.json
+│   ├── lang_de.json
+│   └── lang_fr.json
+└── sounds/
+    ├── dzwonek_przerwy.wav
+    └── powrot_do_pracy.wav</code></pre>
+
+  <a class="button" href="https://github.com/majstered/twoj-czas-twoje-zdrowie/releases/latest" target="_blank">⬇️ Pobierz aplikację (EXE)</a>
+
+  <div class="footer">
+    <a href="https://majstered.github.io/ramzi.github.io/" target="_blank">Zobacz moje inne aplikacje</a> |
+    <a href="https://github.com/majstered/twoj-czas-twoje-zdrowie" target="_blank">Repozytorium GitHub</a><br><br>
+    © 2025 Ramzi & Mgiełka – Wszystkie prawa zastrzeżone.
+  </div>
+
+</body>
+</html>
