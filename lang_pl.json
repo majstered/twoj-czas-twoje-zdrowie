@@ -1,0 +1,21 @@
+{
+  "title": "- Twój czas -\n\n- Twoje zdrowie -",
+  "sound_label": "Dźwięki",
+  "language": "Język:",
+  "start_button": "Uruchom program",
+  "start_message": "Tutaj będzie dalsza część aplikacji.",
+  "main_title": "Tryb - POMODORO -",
+  "main_info": "Wybierz tryb i zadbaj o siebie.",
+  "mode_1": "Tryb testowy 1 min / Przerwa 30 sek.",
+  "mode_2": "30 min / Przerwa 2 min",
+  "mode_3": "45 min / Przerwa 5 min",
+  "skip_break": "Pomiń przerwę / czuję się dobrze",
+  "break_title": "Przerwa",
+  "break_message": "Mrugaj oczami, rozciągnij się, weź głęboki oddech!\n\nZajrzyj w okno albo zamknij oczy",
+  "break_timer": "Pozostały czas przerwy:",
+  "shutdown_label": "Czasowy wyłącznik komputera:",
+  "set_shutdown": "Ustaw godzinę",
+  "shutdown_set_info": "Komputer wyłączy się za {h}h {m}min",
+  "shutdown_error": "Wpisz godzinę w formacie HH:MM",
+  "shutdown_warning": "Twój komputer wyłączy się za minutę. Zamknij programy."
+}
